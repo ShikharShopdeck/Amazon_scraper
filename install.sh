@@ -9,7 +9,7 @@ fi
 
 # Install dependencies globally with upgrade flag
 # The -U flag ensures packages are updated if they already exist
-pip install -U -r requirements.txt
+pipx install -U -r requirements.txt
 
 # Check if the installation succeeded
 if [ $? -eq 0 ]; then
