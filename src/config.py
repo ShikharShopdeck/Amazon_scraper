@@ -1,12 +1,11 @@
 import logging
 
 # URL Configuration
-BASE_URL = "https://www.amazon.in/s?k=tshirt+for+man&crid=2R7R4H8TMQ4AZ&qid=1734267058&sprefix=tshir,aps,231"
-
+BASE_URL = "https://www.amazon.in/s?i=apparel&rh=n%3A1968254031&s=popularity-rank&fs=true"
 # MongoDB Configuration
-MONGODB_CONNECTION = "mongodb://localhost:27017/"
-DB_NAME = "ProductDatabase"
-COLLECTION_NAME = "ProductDetails"
+MONGODB_CONNECTION = "mongodb://stage_dev:SOh3TbYhx8ypJPxmt@34.93.48.32:27017/"
+DB_NAME = "scraping_data"
+COLLECTION_NAME = "amazon_products"
 
 # Logging Configuration
 logging.basicConfig(
